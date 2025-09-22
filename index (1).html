@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>registerForm
+    </title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+      <div class="form-container">
+        <form id="registerForm">
+                <input type="text" id="nama" placeholder="Masukan Nama" required/>
+                <input type="email" id="email" placeholder="Masukan Email" required/>
+                <input type="password" id="password" placeholder="Masukan Password" required/>
+                <input type="date" id="tanggal" placeholder="Tanggal Lahir" required/>
+                
+                <label>Jenis Kelamin:</label>
+                <div class="radio-group">
+                  <input type="radio" name="gender" id="Laki-Laki" value="Laki-Laki" required/>
+                  <label for="Laki-Laki">Laki-Laki</label>
+                  <input type="radio" name="gender" id="Wanita" value="Wanita"/>
+                  <label for="Wanita">Wanita</label>
+                  
+                </div>
+                
+                <input type="text" id="tempat" placeholder="Tempat Tanggal Lahir" required/>
+                <input type="number" id="no-telp" placeholder="Masukan no Telp" required/>
+                <textarea id="alamat" rows="8" cols="40" placeholder="Masukan alamat lengkap" required/></textarea>
+                
+                <input type="checkbox" id="setuju" />
+                <label for="setuju">Anda menyetujui Syarat dan ketentuan</label>
+                <a href="Login.html">Login</a>
+                <button type="submit">Buat Akun</button>
+  </form>
+  </div>
+<table id="dataTable" border="1">
+  <head>
+    <tr>
+      <th>Nama</th>
+      <th>Email</th>
+      <th>Tanggal Lahir</th>
+      <th>Tempat tanggal lahir</th>
+      <th>Jenis kelamin</th>
+      <th>No Telp</th>
+      <th>Alamat</th>
+    </tr>
+    </thead>
+    
+    </table>
+    
+    </body>
+  </head>
